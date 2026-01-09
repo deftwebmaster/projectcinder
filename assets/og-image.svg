@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f0c0a"/>
+  
+  <!-- Subtle glow effect -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6b2b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f0c0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="600" cy="315" rx="500" ry="300" fill="url(#glow)"/>
+  
+  <!-- Logo mark -->
+  <circle cx="600" cy="250" r="60" fill="none" stroke="#ff6b2b" stroke-width="4"/>
+  <path d="M600 200 L612 250 L600 300 L588 250 Z" fill="#ff6b2b"/>
+  <circle cx="600" cy="250" r="10" fill="#0f0c0a"/>
+  
+  <!-- Text -->
+  <text x="600" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#f5f0eb" text-anchor="middle">CinderKit</text>
+  <text x="600" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#a89888" text-anchor="middle">Ship landing pages, not config files</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#6b5c4d" text-anchor="middle">No npm. No build step. No bullshit.</text>
+</svg>

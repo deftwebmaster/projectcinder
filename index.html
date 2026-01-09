@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- * lone wolf, burning steady | Matt Livingston -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>CinderKit — A landing page kit for people who'd rather ship than configure</title>
+  <meta name="description" content="No npm. No build step. No bullshit. Just a complete landing page you can clone, edit, and ship today.">
+  
+  <!-- Social/OG tags -->
+  <meta property="og:title" content="CinderKit — Ship landing pages fast">
+  <meta property="og:description" content="A landing page kit for people who'd rather ship than configure. No npm. No build step. No bullshit.">
+  <meta property="og:image" content="assets/og-image.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://projectcinder.com">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CinderKit",
+    "url": "https://projectcinder.com",
+    "description": "A minimal static site starter for landing pages. No build step, no dependencies, no framework.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Project Cinder"
+    }
+  }
+  </script>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+          <path d="M20 8 L24 20 L20 32 L16 20 Z" fill="var(--color-accent)"/>
+          <circle cx="20" cy="20" r="4" fill="var(--color-bg)"/>
+        </svg>
+        <span class="logo-text">CinderKit</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="https://projectcinder.com/download/cinderkit-v1.zip" class="button button-small">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Ship landing pages,<br>not config files</h1>
+      <p class="subhead">A landing page kit for people who'd rather ship than configure.</p>
+      <div class="hero-cta">
+        <a href="https://projectcinder.com/download/cinderkit-v1.zip" class="button">Download CinderKit</a>
+        <span class="hero-note">Free forever. No signup required.</span>
+      </div>
+    </section>
+
+    <section class="comparison fade-in">
+      <h2>The difference</h2>
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>What others do</th>
+              <th>What CinderKit does</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>"Install our CLI, run the dev server, configure your tailwind.config.js"</td>
+              <td>Open index.html in your browser. Edit. Done.</td>
+            </tr>
+            <tr>
+              <td>Component libraries with 50+ pieces you'll never use</td>
+              <td>One complete LP with the sections that actually ship</td>
+            </tr>
+            <tr>
+              <td>"Lightweight" frameworks that still need npm</td>
+              <td>Literally zero dependencies. Copy files, edit, deploy.</td>
+            </tr>
+            <tr>
+              <td>Starter templates that look like starter templates</td>
+              <td>Dark mode, scroll animations, modal, toast—out of the box</td>
+            </tr>
+            <tr>
+              <td>Free tiers that gate the good stuff</td>
+              <td>Everything. No paywall. No "pro" upsell.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="features" class="features fade-in">
+      <h2>What's in the box</h2>
+      <div class="features-grid">
+        <div class="card">
+          <div class="card-icon">📄</div>
+          <h3>Complete LP Template</h3>
+          <p>Hero, features, pricing, FAQ, testimonials, CTAs—all the sections you actually need.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎨</div>
+          <h3>CSS Variables</h3>
+          <p>Change colors, fonts, and spacing in one place. Theming takes minutes, not hours.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌙</div>
+          <h3>Dark Mode</h3>
+          <p>Automatic light/dark switching based on system preferences. Zero config.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3>Mobile-First</h3>
+          <p>Responsive by default. Hamburger nav, flexible grids, touch-friendly.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✨</div>
+          <h3>Scroll Animations</h3>
+          <p>Subtle fade-ins via IntersectionObserver. Respects reduced-motion preferences.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔲</div>
+          <h3>Modal & Toast</h3>
+          <p>Ready-to-use modal dialog and toast notifications. Keyboard accessible.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📝</div>
+          <h3>Form Patterns</h3>
+          <p>Email signup, contact form, multi-field—with honeypot spam protection built in.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔍</div>
+          <h3>SEO Ready</h3>
+          <p>Meta tags, Open Graph, JSON-LD structured data, sitemap, robots.txt.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Zero Dependencies</h3>
+          <p>No npm, no node_modules, no package.json. Just files you can open in any editor.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works fade-in">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Download</h3>
+            <p>Grab the zip. No npm install. No git clone required. Just files.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Edit</h3>
+            <p>Open index.html. Change the copy. Swap the colors. Drop in your logo.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Ship</h3>
+            <p>Deploy to GitHub Pages, Netlify, Vercel, or anywhere that serves static files.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq fade-in">
+      <h2>FAQ</h2>
+      <div class="accordion">
+        <details>
+          <summary>Is this really free?</summary>
+          <p>Yes. Completely. No premium tier, no upsells, no "sign up for more features." Download it, use it for whatever you want, forever.</p>
+        </details>
+        <details>
+          <summary>Why not just use Tailwind / Bootstrap / [framework]?</summary>
+          <p>You can! Those are great tools for larger projects. CinderKit is for when you need a landing page today, not a design system for the next two years. No build step means no yak-shaving.</p>
+        </details>
+        <details>
+          <summary>Can I use this for client work?</summary>
+          <p>Absolutely. Use it for yourself, for clients, for your side project, for your startup. No attribution required.</p>
+        </details>
+        <details>
+          <summary>What if I need more components?</summary>
+          <p>Add them! It's just HTML and CSS. The kit is meant to be a starting point you own completely, not a dependency you're locked into.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="cta" class="cta fade-in">
+      <h2>Ready to ship?</h2>
+      <p>Download CinderKit and launch your landing page today.</p>
+      <div class="hero-cta">
+        <a href="https://projectcinder.com/download/cinderkit-v1.zip" class="button">Download CinderKit</a>
+        <span class="hero-note">~15kb zipped. No signup. No tracking.</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Project Cinder. Built with CinderKit, obviously.</p>
+      <a href="https://mattlivingston.com" class="creator-credit" aria-label="Created by Matt Livingston">
+        <span class="creator-mark">&lt;ML /&gt;</span>
+      </a>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" aria-label="Back to top">↑</a>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# ProjectCinder robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://projectcinder.com/sitemap.xml
